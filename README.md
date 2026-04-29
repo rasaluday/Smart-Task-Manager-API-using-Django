@@ -37,24 +37,26 @@ GET /smart/tasks
 ### Complete Task
 PATCH /smart/tasks/{id}
 
+## API Output Screenshots
+
+1. GET /smart/tasks (List Tasks)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e2e7ed1c-a9c1-4ba2-b861-380590462f71" />
+
+
+---
+
+2. PATCH /smart/tasks/{id} (Mark Complete)
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/eb3ec88e-b478-4d6d-a42b-8ebba2b17332" />
+
+
+
 ## Run Project
 
 ```bash
 pip install -r requirements.txt
 python manage.py runserver
 
-## API Output Screenshots
 
-1. GET /smart/tasks (List Tasks)
-
-![GET Tasks](<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c0fe504d-8958-4812-a96b-4b7dba206bbd" />
-)
-
----
-
-2. PATCH /smart/tasks/{id} (Mark Complete)
-
-![PATCH Task](<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/cdc0f52b-8fe4-49a6-8362-32f04240aec0" />
-)
 
 
