@@ -42,3 +42,12 @@ PATCH /smart/tasks/{id}
 ```bash
 pip install -r requirements.txt
 python manage.py runserver
+
+## API Screenshot
+1. GET /smart/tasks (List Tasks)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a2b9bf61-1ee8-40e6-960e-a575c02c53fa" />
+----------
+### 2. PATCH /smart/tasks/{id} (Mark Complete)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4bdbccb1-cbb3-4f1a-a399-b61e46d41e41" />
+
+
